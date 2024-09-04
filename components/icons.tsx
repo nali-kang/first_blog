@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa";
+
 type IconProps = React.HtmlHTMLAttributes<SVGElement>;
 
 export const Icons = {
@@ -59,4 +61,5 @@ export const Icons = {
       </defs>
     </svg>
   ),
+  github: () => <FaGithub />,
 };
