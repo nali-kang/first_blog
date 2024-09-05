@@ -18,7 +18,7 @@ export default async function BlogPage() {
       </div>
       <hr className="mt-8" />
       {displayPosts?.length > 0 ? (
-        <ul className="flex felx-col">
+        <ul className="flex flex-col">
           {displayPosts.map((post) => {
             const { slug, date, title, description } = post;
             return (
