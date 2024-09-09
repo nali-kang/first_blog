@@ -5,7 +5,7 @@
     "description": "두번째 블로그 글인데요",
     "date": "2024-09-04T00:00:00.000Z",
     "published": true,
-    "body": "const{Fragment:n,jsx:e,jsxs:t}=arguments[0];function _createMdxContent(r){const c={code:\"code\",h1:\"h1\",h3:\"h3\",p:\"p\",...r.components};return t(n,{children:[e(c.h1,{children:\"햅삐 World\"}),\"\\n\",t(c.p,{children:[\"어서와요 \",e(c.code,{children:\"단풍국에\"})]}),\"\\n\",e(c.h3,{children:\"Header 3\"})]})}return{default:function(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "body": "const{Fragment:e,jsx:n,jsxs:t}=arguments[0];function _createMdxContent(o){const r={code:\"code\",h1:\"h1\",h3:\"h3\",p:\"p\",...o.components},{Callout:c}=r;return c||function(e,n){throw new Error(\"Expected \"+(n?\"component\":\"object\")+\" `\"+e+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),t(e,{children:[n(c,{type:\"warning\",children:\"안녕하시와요 Callout\"}),\"\\n\",n(r.h1,{children:\"햅삐 World\"}),\"\\n\",t(r.p,{children:[\"어서와요 \",n(r.code,{children:\"단풍국에\"})]}),\"\\n\",n(r.h3,{children:\"Header 3\"})]})}return{default:function(e={}){const{wrapper:t}=e.components||{};return t?n(t,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
     "slugAsParams": "happy-blog"
   },
   {
